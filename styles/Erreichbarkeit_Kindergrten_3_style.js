@@ -44,7 +44,7 @@ var style_Erreichbarkeit_Kindergrten_3 = function(feature, resolution){
     };
     
     var labelText = ""; 
-    var value = feature.get("kindergaerten_AA_MINS");
+    var value = feature.get("Erreichbarkeit (Min)");
     var labelFont = "10px, sans-serif";
     var labelFill = "#000000";
     var bufferColor = "";

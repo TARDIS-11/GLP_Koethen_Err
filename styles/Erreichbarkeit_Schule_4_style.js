@@ -44,7 +44,7 @@ var style_Erreichbarkeit_Schule_4 = function(feature, resolution){
     };
     
     var labelText = ""; 
-    var value = feature.get("schule_AA_MINS");
+    var value = feature.get("Erreichbarkeit (Min)");
     var labelFont = "10px, sans-serif";
     var labelFill = "#000000";
     var bufferColor = "";
