@@ -1,14 +1,14 @@
 var size = 0;
 var placement = 'point';
 
-var style_koethen_kernstadt_u_ortschaften_1 = function(feature, resolution){
+var style_schule_6 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
     };
     
     var labelText = ""; 
-    var value = feature.get("''");
+    var value = feature.get("");
     var labelFont = "10px, sans-serif";
     var labelFill = "#000000";
     var bufferColor = "";
@@ -20,11 +20,20 @@ var style_koethen_kernstadt_u_ortschaften_1 = function(feature, resolution){
     if ("" !== null) {
         labelText = String("");
     }
-    
     var style = [ new ol.style.Style({
+        image: new ol.style.Icon({
+                  imgSize: [580, 580],
+                  scale: 0.032758620689655175,
+                  anchor: [290.0, 290.0],
+                  anchorXUnits: "pixels",
+                  anchorYUnits: "pixels",
+                  rotation: 0.0,
+                  src: "styles/education_school.svg"
+            }),
         text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor, bufferWidth)
-    })];;
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
 
     return style;
 };
