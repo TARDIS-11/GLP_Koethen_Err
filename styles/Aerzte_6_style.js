@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_amenity_doctors_healthcare_doctor_6 = function(feature, resolution){
+var style_Aerzte_6 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
