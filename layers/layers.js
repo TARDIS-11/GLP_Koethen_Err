@@ -168,10 +168,6 @@ var group_Buildings_spatialJoin = new ol.layer.Group({
                                 layers: [lyr_Erreichbarkeit_rzte_2,lyr_Erreichbarkeit_Kultureinrichtungen_3,lyr_Erreichbarkeit_Kindergrten_4,lyr_Erreichbarkeit_Schule_5,],
                                 fold: 'close',
                                 title: 'Buildings_spatial Join'});
-var group_Stadt_u_Stadtteile = new ol.layer.Group({
-                                layers: [],
-                                fold: 'open',
-                                title: 'Stadt_u_Stadtteile'});
 
 lyr_OpenStreetMap_0.setVisible(true);lyr_DarkGray_1.setVisible(true);lyr_Erreichbarkeit_rzte_2.setVisible(true);lyr_Erreichbarkeit_Kultureinrichtungen_3.setVisible(true);lyr_Erreichbarkeit_Kindergrten_4.setVisible(true);lyr_Erreichbarkeit_Schule_5.setVisible(true);lyr_Aerzte_6.setVisible(true);lyr_Schule_7.setVisible(true);lyr_Kindergaerten_8.setVisible(true);lyr_Kultureinrichtungen_u_kirche_9.setVisible(true);
 var layersList = [lyr_OpenStreetMap_0,lyr_DarkGray_1,group_Buildings_spatialJoin,group_POIs];
