@@ -1,6 +1,6 @@
 var size = 0;
 var placement = 'point';
-function categories_Erreichbarkeit_Kindergrten_3(feature, value, size, resolution, labelText,
+function categories_Erreichbarkeit_rzte_2(feature, value, size, resolution, labelText,
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement) {
                 var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
@@ -37,14 +37,14 @@ default:
     })];
                     break;}};
 
-var style_Erreichbarkeit_Kindergrten_3 = function(feature, resolution){
+var style_Erreichbarkeit_rzte_2 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
     };
     
     var labelText = ""; 
-    var value = feature.get("Erreichbarkeit (Min)");
+    var value = feature.get("err_min");
     var labelFont = "10px, sans-serif";
     var labelFill = "#000000";
     var bufferColor = "";
@@ -57,7 +57,7 @@ var style_Erreichbarkeit_Kindergrten_3 = function(feature, resolution){
         labelText = String("");
     }
     
-    var style = categories_Erreichbarkeit_Kindergrten_3(feature, value, size, resolution, labelText,
+    var style = categories_Erreichbarkeit_rzte_2(feature, value, size, resolution, labelText,
                             labelFont, labelFill, bufferColor,
                             bufferWidth, placement);
 

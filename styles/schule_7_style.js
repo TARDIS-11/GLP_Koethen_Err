@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_amenity_doctors_healthcare_doctor_5 = function(feature, resolution){
+var style_schule_7 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -28,7 +28,7 @@ var style_amenity_doctors_healthcare_doctor_5 = function(feature, resolution){
                   anchorXUnits: "pixels",
                   anchorYUnits: "pixels",
                   rotation: 0.0,
-                  src: "styles/health_doctors.svg"
+                  src: "styles/education_school.svg"
             }),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
