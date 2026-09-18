@@ -160,17 +160,17 @@ var lyr_Kultureinrichtungen_u_kirche_9 = new ol.layer.Vector({
     <img src="styles/legend/Kultureinrichtungen_u_kirche_9_2.png" /> Religiöse Einrichtung<br />\
     <img src="styles/legend/Kultureinrichtungen_u_kirche_9_3.png" /> Rathaus<br />\
     <img src="styles/legend/Kultureinrichtungen_u_kirche_9_4.png" /> Sehenswürdigkeit<br />' });
-var group_POIs = new ol.layer.Group({
+var group_PointsofInterest = new ol.layer.Group({
                                 layers: [lyr_Aerzte_6,lyr_Schule_7,lyr_Kindergaerten_8,lyr_Kultureinrichtungen_u_kirche_9,],
-                                fold: 'close',
-                                title: 'POIs'});
-var group_Buildings_spatialJoin = new ol.layer.Group({
+                                fold: 'open',
+                                title: 'Points of Interest'});
+var group_ErreichbarkeitinMinuten = new ol.layer.Group({
                                 layers: [lyr_Erreichbarkeit_rzte_2,lyr_Erreichbarkeit_Kultureinrichtungen_3,lyr_Erreichbarkeit_Kindergrten_4,lyr_Erreichbarkeit_Schule_5,],
                                 fold: 'close',
-                                title: 'Buildings_spatial Join'});
+                                title: 'Erreichbarkeit (in Minuten)'});
 
 lyr_OpenStreetMap_0.setVisible(true);lyr_DarkGray_1.setVisible(true);lyr_Erreichbarkeit_rzte_2.setVisible(true);lyr_Erreichbarkeit_Kultureinrichtungen_3.setVisible(true);lyr_Erreichbarkeit_Kindergrten_4.setVisible(true);lyr_Erreichbarkeit_Schule_5.setVisible(true);lyr_Aerzte_6.setVisible(true);lyr_Schule_7.setVisible(true);lyr_Kindergaerten_8.setVisible(true);lyr_Kultureinrichtungen_u_kirche_9.setVisible(true);
-var layersList = [lyr_OpenStreetMap_0,lyr_DarkGray_1,group_Buildings_spatialJoin,group_POIs];
+var layersList = [lyr_OpenStreetMap_0,lyr_DarkGray_1,group_ErreichbarkeitinMinuten,group_PointsofInterest];
 lyr_Erreichbarkeit_rzte_2.set('fieldAliases', {'fid': 'fid', 'full_id': 'full_id', 'osm_id': 'osm_id', 'building': 'building', 'addr:street': 'addr:street', 'addr:postcode': 'addr:postcode', 'addr:housenumber': 'addr:housenumber', 'err_min': 'err_min', 'dr_AA_MODE': 'dr_AA_MODE', 'stadtteil': 'stadtteil', });
 lyr_Erreichbarkeit_Kultureinrichtungen_3.set('fieldAliases', {'fid': 'fid', 'full_id': 'full_id', 'osm_id': 'osm_id', 'building': 'building', 'addr:street': 'addr:street', 'addr:postcode': 'addr:postcode', 'addr:housenumber': 'addr:housenumber', 'stadtteil': 'stadtteil', 'err_min': 'err_min', 'kultur_AA_MODE': 'kultur_AA_MODE', });
 lyr_Erreichbarkeit_Kindergrten_4.set('fieldAliases', {'fid': 'fid', 'full_id': 'full_id', 'osm_id': 'osm_id', 'building': 'building', 'addr:street': 'addr:street', 'addr:postcode': 'addr:postcode', 'addr:housenumber': 'addr:housenumber', 'stadtteil': 'stadtteil', 'err_min': 'err_min', 'kindergaerten_AA_MODE': 'kindergaerten_AA_MODE', });
