@@ -38,10 +38,10 @@ var lyr_Erreichbarkeit_rzte_2 = new ol.layer.Vector({
                 popuplayertitle: 'Erreichbarkeit_Ärzte',
                 interactive: true,
     title: 'Erreichbarkeit_Ärzte<br />\
-    <img src="styles/legend/Erreichbarkeit_rzte_2_0.png" /> 5<br />\
-    <img src="styles/legend/Erreichbarkeit_rzte_2_1.png" /> 10<br />\
-    <img src="styles/legend/Erreichbarkeit_rzte_2_2.png" /> 15<br />\
-    <img src="styles/legend/Erreichbarkeit_rzte_2_3.png" /> <br />' });
+    <img src="styles/legend/Erreichbarkeit_rzte_2_0.png" /> ≤ 5 min<br />\
+    <img src="styles/legend/Erreichbarkeit_rzte_2_1.png" /> 5 - 10 min<br />\
+    <img src="styles/legend/Erreichbarkeit_rzte_2_2.png" /> 10 - 15 min<br />\
+    <img src="styles/legend/Erreichbarkeit_rzte_2_3.png" /> > 15 min<br />' });
 var format_Erreichbarkeit_Kultureinrichtungen_3 = new ol.format.GeoJSON();
 var features_Erreichbarkeit_Kultureinrichtungen_3 = format_Erreichbarkeit_Kultureinrichtungen_3.readFeatures(json_Erreichbarkeit_Kultureinrichtungen_3, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -56,10 +56,10 @@ var lyr_Erreichbarkeit_Kultureinrichtungen_3 = new ol.layer.Vector({
                 popuplayertitle: 'Erreichbarkeit_Kultureinrichtungen',
                 interactive: true,
     title: 'Erreichbarkeit_Kultureinrichtungen<br />\
-    <img src="styles/legend/Erreichbarkeit_Kultureinrichtungen_3_0.png" /> 5<br />\
-    <img src="styles/legend/Erreichbarkeit_Kultureinrichtungen_3_1.png" /> 10<br />\
-    <img src="styles/legend/Erreichbarkeit_Kultureinrichtungen_3_2.png" /> 15<br />\
-    <img src="styles/legend/Erreichbarkeit_Kultureinrichtungen_3_3.png" /> <br />' });
+    <img src="styles/legend/Erreichbarkeit_Kultureinrichtungen_3_0.png" /> ≤ 5 min <br />\
+    <img src="styles/legend/Erreichbarkeit_Kultureinrichtungen_3_1.png" /> 5 - 10 min<br />\
+    <img src="styles/legend/Erreichbarkeit_Kultureinrichtungen_3_2.png" /> 10 - 15 min<br />\
+    <img src="styles/legend/Erreichbarkeit_Kultureinrichtungen_3_3.png" /> > 15 min<br />' });
 var format_Erreichbarkeit_Kindergrten_4 = new ol.format.GeoJSON();
 var features_Erreichbarkeit_Kindergrten_4 = format_Erreichbarkeit_Kindergrten_4.readFeatures(json_Erreichbarkeit_Kindergrten_4, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -74,10 +74,10 @@ var lyr_Erreichbarkeit_Kindergrten_4 = new ol.layer.Vector({
                 popuplayertitle: 'Erreichbarkeit_Kindergärten',
                 interactive: true,
     title: 'Erreichbarkeit_Kindergärten<br />\
-    <img src="styles/legend/Erreichbarkeit_Kindergrten_4_0.png" /> 5<br />\
-    <img src="styles/legend/Erreichbarkeit_Kindergrten_4_1.png" /> 10<br />\
-    <img src="styles/legend/Erreichbarkeit_Kindergrten_4_2.png" /> 15<br />\
-    <img src="styles/legend/Erreichbarkeit_Kindergrten_4_3.png" /> <br />' });
+    <img src="styles/legend/Erreichbarkeit_Kindergrten_4_0.png" /> < 5 min<br />\
+    <img src="styles/legend/Erreichbarkeit_Kindergrten_4_1.png" /> 5 - 10 min<br />\
+    <img src="styles/legend/Erreichbarkeit_Kindergrten_4_2.png" /> 10 - 15 min<br />\
+    <img src="styles/legend/Erreichbarkeit_Kindergrten_4_3.png" /> > 15 min<br />' });
 var format_Erreichbarkeit_Schule_5 = new ol.format.GeoJSON();
 var features_Erreichbarkeit_Schule_5 = format_Erreichbarkeit_Schule_5.readFeatures(json_Erreichbarkeit_Schule_5, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -92,10 +92,10 @@ var lyr_Erreichbarkeit_Schule_5 = new ol.layer.Vector({
                 popuplayertitle: 'Erreichbarkeit_Schule',
                 interactive: true,
     title: 'Erreichbarkeit_Schule<br />\
-    <img src="styles/legend/Erreichbarkeit_Schule_5_0.png" /> 5<br />\
-    <img src="styles/legend/Erreichbarkeit_Schule_5_1.png" /> 10<br />\
-    <img src="styles/legend/Erreichbarkeit_Schule_5_2.png" /> 15<br />\
-    <img src="styles/legend/Erreichbarkeit_Schule_5_3.png" /> <br />' });
+    <img src="styles/legend/Erreichbarkeit_Schule_5_0.png" /> ≤ 5 min<br />\
+    <img src="styles/legend/Erreichbarkeit_Schule_5_1.png" /> 5 - 10 min<br />\
+    <img src="styles/legend/Erreichbarkeit_Schule_5_2.png" /> 10 - 15 min<br />\
+    <img src="styles/legend/Erreichbarkeit_Schule_5_3.png" /> > 15 min<br />' });
 var format_Aerzte_6 = new ol.format.GeoJSON();
 var features_Aerzte_6 = format_Aerzte_6.readFeatures(json_Aerzte_6, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
